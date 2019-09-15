@@ -314,6 +314,7 @@
   }
 
   .history .content .title {
+    width: 50%;
     position: relative;
     left: 15px;
     top: 0;
@@ -342,9 +343,183 @@
     letter-spacing: 0;
   }
 
-  /* 
-
   /* END OF HISTORY */
+
+  /* DEBT */
+  .debt {
+    height: 1227px;
+    background-color: #c88800;
+  }
+
+  .debt .title > img {
+    width: 258px;
+    height: 16px;
+  }
+
+  .debt .content .title {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .debt .item {
+    width: calc(100% - 44px);
+    min-height: 210px;
+    background-color: white;
+    color: black;
+    padding: 0 25px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 6px;
+  }
+
+  .debt .content .item {
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+
+  .debt .item .item-title {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+  }
+
+  .debt .item .break-line {
+    height: 1px;
+  }
+
+  .debt .item-title span::before {
+    left: -3px;
+    width: calc(100% + 2px);
+    height: 8px;
+  }
+
+  .debt .item .info {
+    letter-spacing: 1.2px;
+    line-height: 1.5;
+  }
+
+  /* END OF DEBT */
+
+  /* COW-FARM */
+  .cow-farm {
+    margin-top: 17px;
+    margin-bottom: 50px;
+  }
+
+  .cow-farm .content .background {
+    background-position: 65% 82%;
+    width: calc(100% - 20px);
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  .cow-farm .item .title {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+  }
+
+  .cow-farm .item .info {
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 1.1px;
+  }
+
+  .cow-farm .row {
+    display: block;
+  }
+
+  .cow-farm .row .item {
+    width: 100%;
+  }
+
+  .cow-farm .row .row-background {
+    width: calc(100% - 20px);
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  .cow-farm .row.row-1 {
+    margin-top: 45px;
+  }
+
+  .cow-farm .row.row-2 {
+    margin-top: 65px;
+  }
+
+  .cow-farm .row.row-1 .row-background {
+    background: url("./images/cow-background-2.png");
+    background-position-x: center;
+    background-position-y: center;
+  }
+
+  .cow-farm .row.row-2 .row-background {
+    background: url("./images/cow-background-3.png");
+    background-position-x: 60%;
+    background-position-y: 20%;
+    margin-bottom: 40px;
+  }
+
+  .cow-farm .row.row-2 .info {
+    letter-spacing: 1.5px;
+  }
+  /* END OF COW-FARM */
+
+  /* BRANDNEW */
+
+  .brandnew {
+    position: relative;
+    height: 612px;
+    margin-bottom: 50px;
+  }
+
+  .brandnew .content {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .brandnew .content .milk-image {
+    background: url("./images/brandnew-milk.png");
+    background-position: 80% 85%;
+    width: 100%;
+    height: 281px;
+  }
+
+  .brandnew .content .text {
+    position: absolute;
+    top: 245px;
+    width: calc(100% - 15px);
+    height: 366px;
+    padding-left: 28px;
+    padding-top: 45px;
+  }
+
+  .brandnew .text .title {
+    width: 100%;
+    font-size: 18px;
+    letter-spacing: 5px;
+    padding-left: 0;
+    padding-bottom: 25px;
+    border-bottom: none;
+  }
+
+  .brandnew .text .info {
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2.5px;
+    text-align: justify;
+  }
+  .brandnew .text .info p {
+    margin-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
+  /* END OF BRANDNEW */
 
   .sp-only {
     display: block !important;
